@@ -23,7 +23,7 @@
 三、实验过程
    首先，需要建立一个package命名为“实验四”。定义一个字符串，并输入要求的《长恨歌》。调用string buffer，定义一个新的字符串，可进行更改。对字符串中的每一个对象进行循环判断，每7个汉字加入一个标点符号，奇数时加“，”，偶数时加“。”使用StringTokenizer找出所求文字出现的次数。然后新建test，对输入字符串进行try exception操作进行试错。
 四、实验流程图
-  ![image text]（https://github.com/Echo334/ss/blob/master/%E6%B5%81%E7%A8%8B%E5%9B%BE.png）
+  ![image text](https://github.com/Echo334/ss/blob/master/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 五、核心代码及注释
    public Changhenge(String j)
 	{
