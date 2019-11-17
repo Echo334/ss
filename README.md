@@ -60,4 +60,43 @@
 		}
 		 g = number;
 	}//加入标点符号
-  
+  public static void main(String args[]) throws NewException
+	{
+		Changhenge changhenge;
+
+		String write;
+		write = "不";
+		try {
+		changhenge = new Changhenge(write);
+		if(write == "") 
+		{
+			throw new NewException("不能输入空字符");
+		}
+		else 
+		
+			System.out.print(changhenge);
+		}
+		catch (NewException e) 
+		{
+			e.printStackTrace();
+		}
+
+		finally 
+		{
+			System.out.print("程序运行结束");
+		}
+
+	}//试错，判断输入的字符串的类型
+public class NewException extends Exception{
+	public NewException(){
+		
+ 	}
+	public NewException(String str){ 
+            super(str);
+ 	}
+}//对错误类型进行定义
+六、运行结果
+   ![image text](https://github.com/Echo334/ss/blob/master/%E7%B3%BB%E7%BB%9F%E6%8A%A5%E9%94%99.png)
+   ![image text](https://github.com/Echo334/ss/blob/master/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
+七、心得体会
+   此次实验，对于课上所讲述的try expection进行了练习。同时，运用了基本的循环操作，又加上string buffer，对字符串进行增添，让我对Java的学习更深了一点。
